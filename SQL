@@ -1,0 +1,19 @@
+CREATE TABLE Products (
+    ID int NOT NULL AUTO_INCREMENT,
+    Vendor varchar(255) NOT NULL,
+    Manufacturer varchar(255) NOT NULL,
+    Vendor2 varchar(255),
+    Manufacturer2 varchar(255),
+    Trust int,
+    PRIMARY KEY (ID)
+);
+
+INSERT into Products 
+(Vendor,Manufacturer ,Vendor2, Manufacturer2, Trust)
+VALUES
+('KL9','Knecht','0 450 905 030','Bosch',1),
+('0 450 905 030','Bosch','24073','Febi',1),
+('0 450 905 030','Bosch','12648','Febi',1),
+('0 450 905 030','Bosch','5529','Nac',1),
+('0 450 905 030','Bosch','03310','Febi',1),
+('300 823 546','Hans Pries','17731','Mapco',1)
